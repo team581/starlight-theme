@@ -1,6 +1,6 @@
 {
 	"name": "@team581/starlight-theme",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "Team 581's Starlight theme with maroon palettes and Source Sans 3 headings.",
 	"files": [
 		"dist",
