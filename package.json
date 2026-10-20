@@ -1,0 +1,68 @@
+{
+	"name": "@team581/starlight-theme",
+	"version": "0.1.0",
+	"description": "Team 581's Starlight theme with maroon palettes and Source Sans 3 headings.",
+	"files": [
+		"dist",
+		"src/Head.astro",
+		"src/styles.css"
+	],
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js"
+		},
+		"./Head.astro": "./src/Head.astro",
+		"./styles.css": "./src/styles.css"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"build": "zshy",
+		"format": "oxfmt --check",
+		"format:fix": "oxfmt",
+		"knip": "knip",
+		"lint": "oxlint",
+		"lint:fix": "oxlint --fix",
+		"prepack": "pnpm build",
+		"check": "astro check"
+	},
+	"dependencies": {
+		"@fontsource-variable/source-sans-3": "^5.3.0"
+	},
+	"devDependencies": {
+		"@astrojs/check": "0.9.11",
+		"@astrojs/starlight": "0.42.6",
+		"@tsconfig/recommended": "1.0.13",
+		"@tsconfig/strictest": "2.0.8",
+		"@types/node": "24.19.2",
+		"astro": "7.4.0",
+		"knip": "6.42.1",
+		"oxfmt": "0.74.0",
+		"oxlint": "1.89.0",
+		"oxlint-tsgolint": "7.0.2004",
+		"typescript": "6.0.3",
+		"zshy": "0.8.0"
+	},
+	"peerDependencies": {
+		"@astrojs/starlight": "^0.42.6",
+		"astro": "^7.2.10"
+	},
+	"devEngines": {
+		"runtime": {
+			"name": "node",
+			"version": "24.x",
+			"onFail": "warn"
+		}
+	},
+	"packageManager": "pnpm@12.14.0",
+	"zshy": {
+		"exports": {
+			".": "./src/index.ts"
+		},
+		"cjs": false,
+		"noEdit": true
+	}
+}

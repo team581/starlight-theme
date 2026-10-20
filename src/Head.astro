@@ -1,0 +1,9 @@
+---
+import Default from '@astrojs/starlight/components/Head.astro';
+import headingFont from '@fontsource-variable/source-sans-3/files/source-sans-3-latin-wght-normal.woff2?url';
+---
+
+<Default>
+	<slot />
+</Default>
+<link rel="preload" href={headingFont} as="font" type="font/woff2" crossorigin />
