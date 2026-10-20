@@ -2,6 +2,10 @@
 	"name": "@team581/starlight-theme",
 	"version": "1.0.0",
 	"description": "Team 581's Starlight theme with maroon palettes and Source Sans 3 headings.",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/team581/starlight-theme.git"
+	},
 	"files": [
 		"dist",
 		"src/Head.astro",
