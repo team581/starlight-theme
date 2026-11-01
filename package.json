@@ -38,7 +38,7 @@
 	},
 	"devDependencies": {
 		"@astrojs/check": "0.9.12",
-		"@astrojs/starlight": "0.42.6",
+		"@astrojs/starlight": "0.42.8",
 		"@tsconfig/recommended": "1.0.13",
 		"@tsconfig/strictest": "2.0.8",
 		"@types/node": "24.19.2",
