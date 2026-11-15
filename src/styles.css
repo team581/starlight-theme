@@ -1,34 +1,36 @@
 @import '@fontsource-variable/source-sans-3/wght.css';
 
+/* Colors come from Team 581's Material Design 3 scheme (generated from #591616). */
+
 /* Dark mode colors. */
 :root {
 	--team581-font-heading: 'Source Sans 3 Variable', var(--sl-font-system);
-	--sl-color-accent-low: #460b05;
-	--sl-color-accent: #c60e00;
-	--sl-color-accent-high: #feb3a6;
-	--sl-color-white: #ffffff;
-	--sl-color-gray-1: #f3ecea;
-	--sl-color-gray-2: #cfc6c4;
-	--sl-color-gray-3: #b0a09d;
-	--sl-color-gray-4: #635451;
-	--sl-color-gray-5: #423432;
-	--sl-color-gray-6: #302321;
-	--sl-color-black: #1d1715;
+	--sl-color-accent-low: rgb(115 51 49); /* primary-container */
+	--sl-color-accent: rgb(144 74 70); /* inverse-primary */
+	--sl-color-accent-high: rgb(255 179 174); /* primary */
+	--sl-color-white: rgb(255 248 247); /* light surface */
+	--sl-color-gray-1: rgb(241 222 221); /* on-surface */
+	--sl-color-gray-2: rgb(216 194 192); /* on-surface-variant */
+	--sl-color-gray-3: rgb(160 140 139); /* outline */
+	--sl-color-gray-4: rgb(83 67 66); /* outline-variant */
+	--sl-color-gray-5: rgb(61 50 49); /* surface-container-highest */
+	--sl-color-gray-6: rgb(50 40 39); /* surface-container-high */
+	--sl-color-black: rgb(26 17 17); /* surface */
 }
 /* Light mode colors. */
 :root[data-theme='light'] {
-	--sl-color-accent-low: #ffc8be;
-	--sl-color-accent: #a60a00;
-	--sl-color-accent-high: #640300;
-	--sl-color-white: #1d1715;
-	--sl-color-gray-1: #302321;
-	--sl-color-gray-2: #423432;
-	--sl-color-gray-3: #635451;
-	--sl-color-gray-4: #978784;
-	--sl-color-gray-5: #c8c0be;
-	--sl-color-gray-6: #f3ecea;
-	--sl-color-gray-7: #f9f5f5;
-	--sl-color-black: #ffffff;
+	--sl-color-accent-low: rgb(255 218 215); /* primary-container */
+	--sl-color-accent: rgb(144 74 70); /* primary */
+	--sl-color-accent-high: rgb(115 51 49); /* on-primary-container */
+	--sl-color-white: rgb(35 25 25); /* on-surface */
+	--sl-color-gray-1: rgb(50 40 39); /* dark surface-container-high */
+	--sl-color-gray-2: rgb(56 46 45); /* inverse-surface */
+	--sl-color-gray-3: rgb(83 67 66); /* on-surface-variant */
+	--sl-color-gray-4: rgb(133 115 113); /* outline */
+	--sl-color-gray-5: rgb(216 194 192); /* outline-variant */
+	--sl-color-gray-6: rgb(241 222 221); /* surface-container-highest */
+	--sl-color-gray-7: rgb(255 240 239); /* surface-container-low */
+	--sl-color-black: rgb(255 248 247); /* surface */
 }
 
 :is(h1, h2, h3, h4, h5, h6, .site-title, #starlight__sidebar .large) {
