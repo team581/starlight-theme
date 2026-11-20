@@ -42,7 +42,7 @@
 		"@tsconfig/recommended": "1.0.14",
 		"@tsconfig/strictest": "2.0.9",
 		"@types/node": "26.6.6",
-		"astro": "7.4.4",
+		"astro": "7.4.7",
 		"knip": "6.46.1",
 		"oxfmt": "0.79.0",
 		"oxlint": "1.94.0",
